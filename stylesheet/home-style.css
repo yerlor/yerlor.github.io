@@ -1,0 +1,19 @@
+body{
+    font: 20px Quicksand, sans-serif;
+}
+h2{
+    font-family: Quicksand, sans-serif;
+}
+.nav-color{
+    background-color: #e6eeff;
+}
+.framecard{
+    width: 288px;
+    height: 279.44px;
+}
+.vline{
+    border-left: .1px solid #3b3b3b;
+}
+.pfooter{
+    font-size: 15px;
+}
