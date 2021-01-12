@@ -10,6 +10,7 @@ h2{
 .framecard{
     width: 288px;
     height: 279.44px;
+    max-width: 18rem;
 }
 .vline{
     border-left: .1px solid #3b3b3b;
@@ -20,4 +21,14 @@ h2{
 
 .bio{
     font-size: 17px;
+}
+.card-header{
+    padding: .5rem;
+    height: 70px;
+}
+.ptext{
+    font-size: 15px;
+}
+.frame{
+    width: 100%;
 }
