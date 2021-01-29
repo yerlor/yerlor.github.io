@@ -1,32 +1,52 @@
-import { 
-  Container,
-  Row,
-  Col
- } from 'react-bootstrap';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
+// Styles
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-// Components
-import ListComponent from './components/ListComponent';
+// Views
+import Home from './views/Home';
+import About from './views/About';
+import Work from './views/Work';
 
 function App() {
   return (
-    <Container fluid>
-      <Row>
-        <ListComponent
-          title={"title-1"}
-          description={"My description"}
-          items="[1,2,3,4]"
-        ></ListComponent>
-      </Row>
-      <Row>
-        <ListComponent
-          title={"title-12"}
-          description={"My description 2"}
-          items="[a,b,c,d]"
-        ></ListComponent>
-      </Row>
-    </Container>
+    <Router>
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/work">Work</Link>
+            </li>
+          </ul>
+        </nav>
+
+        {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/work">
+            <Work />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

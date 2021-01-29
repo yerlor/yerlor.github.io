@@ -1,15 +1,22 @@
 import {
-  Card
+  Card,
+  ListGroup
 } from 'react-bootstrap';
 
 export default function ListComponent(props) {
+  const list = props.items.map((item) => 
+    <ListGroup>
+      <ListGroup.Item>{item}</ListGroup.Item>
+    </ListGroup>
+  );
+
   return (
     <Card>
       <Card.Header>{props.title}</Card.Header>
       <Card.Body>
         <Card.Title>{props.description}</Card.Title>
         <Card.Text>
-          {props.items}
+          {list}
         </Card.Text>
       </Card.Body>
     </Card>

@@ -1,0 +1,10 @@
+{
+  "experience": ["HTML5", "CSS3", "Javascript"],
+  "softwares": ["Visual Studio", "Sublime Text 3"],
+  "frameworks": [],
+  "navConfig": [{
+    "title": "home",
+    "display": "Home",
+    "link": "/"
+  }]
+}
