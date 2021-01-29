@@ -4,8 +4,8 @@ import {
 } from 'react-bootstrap';
 
 export default function ListComponent(props) {
-  const list = props.items.map((item) => 
-    <ListGroup>
+  const list = props.items.map((item, idx) => 
+    <ListGroup key={idx}>
       <ListGroup.Item>{item}</ListGroup.Item>
     </ListGroup>
   );

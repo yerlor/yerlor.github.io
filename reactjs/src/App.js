@@ -1,9 +1,11 @@
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
+
+// Data
+import data from "./data/data.json";
 
 // Styles
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -14,23 +16,15 @@ import Home from './views/Home';
 import About from './views/About';
 import Work from './views/Work';
 
+// Components
+import NavComponent from './components/NavComponent';
+
+
 function App() {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/work">Work</Link>
-            </li>
-          </ul>
-        </nav>
+        <NavComponent data={data} />
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
