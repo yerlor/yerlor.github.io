@@ -1,7 +1,7 @@
-{
+{  
   "experience": ["HTML5", "CSS3", "Javascript"],
-  "softwares": ["Visual Studio", "Sublime Text 3"],
-  "frameworks": [],
+  "softwares": ["Visual Studio", "Sublime Text 3", "GitHub"],
+  "frameworks": ["Bootstrap", "jQuery"],
   "navConfig": [{
     "title": "home",
     "display": "Home",
