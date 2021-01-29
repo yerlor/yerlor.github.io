@@ -13,7 +13,7 @@ export default function About() {
       <Row>
         <Col lg={6}>
           <h1>About</h1>
-          <p>
+          <p> 
           Hi, my name is Nkau Yer Lor but you can simply call me Yer. I will be graduating 
           this Spring 2021 with my Bachelor of Science in Human Technology Interaction, minor 
           in Business at the University of Wisconsin-Stevens Point. I began my journey with my 

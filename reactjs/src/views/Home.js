@@ -1,6 +1,6 @@
 import { 
   Container,
-  Row, 
+  Row,  
   Col,
   Image
  } from 'react-bootstrap';

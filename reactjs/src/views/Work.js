@@ -13,7 +13,7 @@ export default function Work() {
     <Container fluid>
       <Row>
         <h1>Internship Experience</h1>
-      </Row>
+      </Row> 
       <Row>
        <ListComponent
           title={"Herrschners"}
@@ -29,4 +29,4 @@ export default function Work() {
 
 
   );
-}
+} 
