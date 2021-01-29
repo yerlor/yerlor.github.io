@@ -3,8 +3,13 @@
   "softwares": ["Visual Studio", "Sublime Text 3"],
   "frameworks": [],
   "navConfig": [{
-    "title": "home",
-    "display": "Home",
+    "name": "home",
     "link": "/"
+  }, {
+    "name": "about",
+    "link": "/about"
+  }, {
+    "name": "work",
+    "link": "/work"
   }]
 }
