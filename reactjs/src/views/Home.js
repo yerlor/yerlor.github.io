@@ -1,13 +1,8 @@
 import { 
   Container,
-<<<<<<< HEAD
   Row,  
   Col,
   Image
-=======
-  Row,
-  Col
->>>>>>> 45aae8a32694e3dad3394a404b1a7e9a9f174d9b
  } from 'react-bootstrap';
  import ListComponent from '../components/ListComponent';
  import data from '../data/data.json';
@@ -17,7 +12,6 @@ export default function Home() {
   return (
     <Container fluid>
       <Row>
-<<<<<<< HEAD
         <Col lg={6}>
           <h1>Hello, I'm Yer.</h1>
           <h2>Student, Designer, Developer</h2>
@@ -35,29 +29,22 @@ export default function Home() {
         </Col>  
       </Row>
       <Row>
-=======
-        <Col sm={7}>
->>>>>>> 45aae8a32694e3dad3394a404b1a7e9a9f174d9b
-        <ListComponent
-          title={"Experience"}
-          description={"A few of my experiences are with"}
-          items={data.experience}
-        ></ListComponent>
+        <Col sm={4}>
+          <ListComponent
+            title={"Experience"}
+            description={"A few of my experiences are with"}
+            items={data.experience}
+          ></ListComponent>
+          <ListComponent
+            title={"Softwares"}
+            description={"Management Tools"}
+            items={data.softwares}
+          ></ListComponent>
+          <ListComponent
+            title={"Frameworks"}
+            items={data.frameworks}
+          ></ListComponent>
         </Col>
-        <Col sm={5}>
-        <ListComponent
-          title={"Softwares"}
-          description={"Management Tools"}
-          items={data.softwares}
-        ></ListComponent>
-<<<<<<< HEAD
-        <ListComponent
-          title={"Frameworks"}
-          items={data.frameworks}
-        ></ListComponent>
-=======
-        </Col>
->>>>>>> 45aae8a32694e3dad3394a404b1a7e9a9f174d9b
       </Row>
     </Container>
   );

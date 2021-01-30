@@ -14,7 +14,13 @@ export default function ListComponent(props) {
     <Card>
       <Card.Header>{props.title}</Card.Header>
       <Card.Body>
-        <Card.Title>{props.description}</Card.Title>
+        <Card.Title>
+          {props.description}
+          <br></br><br></br>
+          {props.description2}
+          <br></br><br></br>
+          {props.description3}
+        </Card.Title>
         <Card.Text>
           {list}
         </Card.Text>

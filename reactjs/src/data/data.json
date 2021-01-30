@@ -5,9 +5,6 @@
   "navConfig": [{
     "name": "home",
     "link": "/"
-<<<<<<< HEAD
-  }] 
-=======
   }, {
     "name": "about",
     "link": "/about"
@@ -15,5 +12,4 @@
     "name": "work",
     "link": "/work"
   }]
->>>>>>> 45aae8a32694e3dad3394a404b1a7e9a9f174d9b
 }
