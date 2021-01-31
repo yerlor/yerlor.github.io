@@ -18,11 +18,19 @@ export default function ListComponent(props) {
           {props.description}
           <br></br><br></br>
           {props.description2}
-          <br></br><br></br>
-          {props.description3}
         </Card.Title>
         <Card.Text>
+          {props.description3}
           {list}
+          <br></br>
+          {props.description4}
+          <br></br>
+          {props.description5}
+          <br></br>
+          {props.description6}
+          <br></br>
+          {props.description7}
+          <br></br>
         </Card.Text>
       </Card.Body>
     </Card>

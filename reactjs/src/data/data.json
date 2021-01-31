@@ -11,5 +11,10 @@
   }, {
     "name": "work",
     "link": "/work"
-  }]
+  }], 
+  "faqs": ["Redesigned the FAQs landing page by adding accordions."], 
+  "retail": ["Redesigned the landing page", "Created a slider and anchor to the page", "Make weekly updates for the Retail Store Ad"],
+  "menu": ["Make updates to menu images and links"],
+  "privacy": ["Added achors to each questions, enabling users to jump right to what they're looking for"],
+  "other": ["Building carousels and sliders", "Creating Masonry Layout (Pinterset layout) with HTM: & CSS", "Gathering email reports and looking at spreadsheets", "Gather reports from Google Analytics"]
 }
