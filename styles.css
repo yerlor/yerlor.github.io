@@ -1,0 +1,139 @@
+body{
+    background-color: #f9fafa;
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    justify-content: right;
+    letter-spacing: 2px;
+}
+ul{
+    list-style:none;
+}
+li {
+    display: inline-block;
+    border-right: 1px solid #000;
+    padding: 0 1px;
+    line-height: 0px;
+}
+li:last-child {
+    border:none;
+}
+h1, h2, h3, h4{
+    font-family: 'Work Sans', sans-serif;
+}
+h1{
+    font-size: 7rem;
+}
+h2{
+    font-size: 5rem;
+}
+h3{
+    font-size: 4rem;
+}
+h4{
+    font-size: 3rem;
+}
+p, a, span, .date, .descriptionBox{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+}
+p, .description{
+    font-size:14px;
+}
+.navLogoText{
+    color:#c18674;
+}
+.navbar-light .navbar-nav .nav-link, a{
+    color:#c18674;
+}
+.navbar-light .navbar-nav .nav-link:hover, a:hover{
+    color:#d4aa9e;
+}
+b{
+    color:#6c7c7f;
+}
+a{
+    text-transform: uppercase;
+}
+.bioContainer{
+    padding-top: 4rem;
+}
+.introBox{
+    padding-left: 2rem;
+}
+.circleRow{
+    margin-left: 2rem;
+}
+.circle {
+    width: 10rem;
+    height: 10rem;
+    line-height: 10rem;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    background: #000
+}
+.btnRow{
+    padding-left: 3rem;
+}
+.btn{
+    background-color: #000;
+    color: #fff;
+    margin-right: 1rem;
+    padding: 15px 25px 15px 25px;
+    border-radius: 23px;
+}
+.btn:hover{
+    color: #fff;
+}
+.btn1{
+    background-color: #c2d1ca;
+}
+.btn2{
+    background-color: #c18674;
+}
+.btn3{
+    background-color: #7a857f;
+}
+.btn1:hover{
+    background-color: #949e99;
+}
+.btn2:hover{
+    background-color: #a37263;
+}
+.btn3:hover{
+    background-color: #5d6560;
+}
+.resumePDF{
+    margin-top: 1rem;
+}
+.downloadBtn{
+    float: right;
+}
+.btn1 a {
+    color: #fff;
+}
+.resumeSection{
+    padding-top: 6rem;
+}
+.resumeBody{
+    padding-top: 2.5rem;
+}
+.date{
+    text-align: right;
+}
+.description::before {
+    content: "•";
+    padding-right: 8px;
+    color: #000;
+  }
+
+footer{
+    bottom: 0;
+    width: 100%;;
+}
+footer li{
+    border-right: none;
+}
